@@ -1,6 +1,6 @@
 import { Rule } from "unocss"
 
-export const TEXT_CENTER_RULE: Rule = [
-  "text-center",
-  { "text-align": "center" },
+export const CENTER_RULE: Rule = [
+  "center",
+  { display: "flex", "justify-content": "center", "align-items": "center" },
 ]
