@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES6",
+    "lib": ["DOM", "ESNext"],
+    "strict": true,
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "noImplicitReturns": false,
+    "noImplicitAny": false,
+    "useUnknownInCatchVariables": false,
+    "jsx": "react-jsx",
+    "types": ["react"]
+  },
+  "include": ["src/**/*.tsx", "src/**/*.ts", "vite.config.ts", "uno.config.ts"],
+  "exclude": ["node_modules", "dist"]
+}
