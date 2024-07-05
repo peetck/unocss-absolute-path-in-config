@@ -1,4 +1,5 @@
-import { CENTER_RULE } from "./rules"
+// import { CENTER_RULE } from "./rules"
+import { CENTER_RULE } from "rules"
 import { definePreset } from "unocss"
 
 export default definePreset(() => ({
